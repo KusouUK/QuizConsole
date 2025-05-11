@@ -1,9 +1,9 @@
 import java.util.List;
 
 public class Quiz {
-    private String question;
-    private List<String> answers;
-    private String correctAnswer;
+    public String question;
+    public List<String> answers;
+    public String correctAnswer;
 
     public Quiz(String question, List<String> answers, String correctAnswer) {
         this.question = question;
