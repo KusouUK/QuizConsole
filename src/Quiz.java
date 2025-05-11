@@ -3,10 +3,10 @@ public class Quiz {
     public String[] answers;
     public String correctAnswer;
 
-    public Quiz(String Question, String[] Answers, String CorrectAnswer) {
-        question = Question;
-        answers = Answers;
-        correctAnswer = CorrectAnswer;
+    public Quiz(String question, String[] answers, String correctAnswer) {
+        this.question = question;
+        this.answers = answers;
+        this.correctAnswer = correctAnswer;
     }
 
     public String getQuestion() {
